@@ -45,8 +45,8 @@ namespace WindowsFormsApp2
         // Работа Андрея Медведева
         private void button1_Click(object sender, EventArgs e) 
         {
-            int inp = Convert.ToInt32(textBox1.Text);
-            if (inp <= 5999) { textBox2.Text = des_rim(inp); } 
+            int kocap = Convert.ToInt32(textBox1.Text);
+            if (kocap <= 5999) { textBox2.Text = des_rim(kocap); } 
             else { Form f = new Form2(); f.Show(); }
         }
         private void button2_Click_1(object sender, EventArgs e)
